@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shared/Shared.iml" filepath="$PROJECT_DIR$/Shared/Shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WakeWithWear.iml" filepath="$PROJECT_DIR$/WakeWithWear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wear/Wear.iml" filepath="$PROJECT_DIR$/Wear/Wear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxwear/rxwear.iml" filepath="$PROJECT_DIR$/rxwear/rxwear.iml" />
+    </modules>
+  </component>
+</project>

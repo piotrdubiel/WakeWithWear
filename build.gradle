@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.1.3'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:0.11.91'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    }
+}
+
+project.ext {
+    applicationId = "io.wake.wear"
+    versionCode = 1
+    versionName = "0.1.0"
+    compileSdkVersion = 22
+    targetSdkVersion = 22
+    buildToolsVersion = "22.0.0"
+    storeFile = file("dev-tools/release.keystore")
+    storePassword = System.env.STORE_PASSOWRD
+    keyAlias = System.env.KEY_ALIAS
+    keyPassword = System.env.KEY_PASSWORD
+}
